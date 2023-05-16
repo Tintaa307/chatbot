@@ -1,7 +1,7 @@
 export const pillwiseData = `
 <url>
-<loc>https://books.toscrape.com/</loc>
-<desc>Your book store</desc>
+<loc>localhost:3000/</loc>
+<desc>Your pillbox anywhere</desc>
 </url>
 <url>
 <loc>https://books.toscrape.com/catalogue/category/books_1/index.html</loc>
