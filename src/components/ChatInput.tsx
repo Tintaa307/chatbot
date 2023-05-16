@@ -34,7 +34,7 @@ const ChatInput: FC<ChatInputProps> = ({ className, ...props }) => {
         const { value, done: doneReading } = await reader.read()
         done = doneReading
         const chunkValue = decoder.decode(value)
-        // we need to show the messages in the chat
+        // we need to show the messages in the chat (pending)
       }
     },
   })
