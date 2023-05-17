@@ -2,6 +2,7 @@ import Chat from "@/components/Chat"
 import "./globals.css"
 import { Rubik } from "next/font/google"
 import Providers from "@/components/Providers"
+import { MessagesProvider } from "@/context/Messages"
 
 const rubikFont = Rubik({ subsets: ["latin"] })
 
