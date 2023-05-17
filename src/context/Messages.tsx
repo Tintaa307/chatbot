@@ -10,6 +10,7 @@ const defaultValue = [
     isUserMessage: false,
   },
 ]
+
 export const MessagesContext = createContext<MessagesContextProps>({
   messages: [],
   isMessageUpdating: false,
