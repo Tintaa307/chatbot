@@ -26,4 +26,7 @@ export const pillwiseData = `
     <desc>Here you can find the answers to the most frequently asked questions.</desc>
     <clarification>You only have to paste it in the browser</clarification>
 </faq>
+<founder>
+    <name>Tinta el mas pijudo</name>
+</founder>
 `

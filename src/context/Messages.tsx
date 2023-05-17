@@ -1,6 +1,7 @@
 import { createContext, useState } from "react"
 import { nanoid } from "nanoid"
 import { Message } from "@/lib/validators/message"
+import { MessagesContextProps } from "@/types"
 
 const defaultValue = [
   {
@@ -9,14 +10,7 @@ const defaultValue = [
     isUserMessage: false,
   },
 ]
-export const MessagesContext = createContext<{
-  messages: Message[]
-  isMessageUpdating: boolean
-  addMessage: (message: Message) => void
-  removeMessage: (id: string) => void
-  updateMessage: (id: string, updateFn: (prevText: string) => string) => void
-  setIsMessageUpdating: (isUpdating: boolean) => void
-}>({
+export const MessagesContext = createContext<MessagesContextProps>({
   messages: [],
   isMessageUpdating: false,
   addMessage: () => {},
