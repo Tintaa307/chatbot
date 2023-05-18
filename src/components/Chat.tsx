@@ -6,12 +6,13 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@radix-ui/react-accordion"
-import { FC } from "react"
+import { FC, useState } from "react"
 import ChatHeader from "./ChatHeader"
 import ChatInput from "./ChatInput"
 import ChatMessages from "./ChatMessages"
 
 const Chat: FC = () => {
+  const [isChatOpen, setIsChatOpen] = useState("")
   return (
     <Accordion
       type="single"
