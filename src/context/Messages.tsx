@@ -6,7 +6,7 @@ import { MessagesContextProps } from "@/types"
 const defaultValue = [
   {
     id: nanoid(),
-    text: "Hello, how can I help you?",
+    text: "Hola, ¿cómo puedo ayudarte?",
     isUserMessage: false,
   },
 ]
